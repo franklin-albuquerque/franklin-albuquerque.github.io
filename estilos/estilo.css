@@ -1,0 +1,23 @@
+
+.centralizar { text-align: center }
+.esquerda { text-align: left }
+.direita { text-align: right }
+.section {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  height: 10em;
+  align-items: right;
+}
+.img {
+  width: 50%;
+}
+.imagem-circular {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle();
+  background: lightblue;
+}
